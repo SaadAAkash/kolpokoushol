@@ -1,0 +1,43 @@
+---
+import merge from 'lodash.merge';
+import type { ImageMetadata } from 'astro';
+import Layout from '~/layouts/PageLayout.astro';
+import SinglePost from '~/components/blog/SinglePost.astro';
+import ToBlogLink from '~/components/blog/ToBlogLink.astro';
+
+import { getCanonical, getPermalink } from '~/utils/permalinks';
+import { getStaticPathsBlogPost, blogPostRobots } from '~/utils/blog';
+import { findImage } from '~/utils/images';
+import { getLocaleFromUrl } from '~/i18n/translator';
+
+export async function getStaticPaths () {
+  return await getStaticPathsBlogPost();
+}
+
+const { post } = Astro.props;
+const localizedPost = post.locales[getLocaleFromUrl(Astro.url)];
+
+const url = getCanonical(getPermalink(localizedPost.permalink, 'post'));
+const image = (await findImage(localizedPost.image)) as ImageMetadata | undefined;
+
+const metadata = merge(
+  {
+    title: localizedPost.title,
+    description: localizedPost.excerpt,
+    robots: {
+      index: blogPostRobots?.index,
+      follow: blogPostRobots?.follow,
+    },
+    openGraph: {
+      type: 'article',
+      ...(image ? { images: [{ url: image, width: image?.width, height: image?.height }] } : {}),
+    },
+  },
+  { ...(localizedPost?.metadata ? { ...localizedPost.metadata, canonical: post.metadata?.canonical || url } : {}) }
+);
+---
+
+<Layout metadata={metadata}>
+  <SinglePost post={{ ...localizedPost, image: image }} url={url} />
+  <ToBlogLink />
+</Layout>

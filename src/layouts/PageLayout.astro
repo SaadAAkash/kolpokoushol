@@ -1,0 +1,35 @@
+---
+import Layout from '~/layouts/Layout.astro';
+import Header from '~/components/widgets/Header.astro';
+import Footer from '~/components/widgets/Footer.astro';
+import Announcement from '~/components/widgets/Announcement.astro';
+
+import { getHeaderData, getFooterData } from '~/navigation';
+import { MetaData } from '~/types';
+import { getLocaleFromUrl } from '~/i18n/translator';
+import { I18N } from '~/utils/config';
+
+const headerData = getHeaderData(getLocaleFromUrl(Astro.url));
+const footerData = getFooterData(getLocaleFromUrl(Astro.url));
+export interface Props {
+  metadata?: MetaData;
+}
+
+const { metadata } = Astro.props;
+const showLanguagePicker = I18N.isEnabled;
+---
+
+<Layout metadata={metadata}>
+  <slot name="announcement">
+    <Announcement />
+  </slot>
+  <slot name="header">
+    <Header {...headerData} isSticky showRssFeed showToggleTheme showLanguagePicker={showLanguagePicker} />
+  </slot>
+  <main>
+    <slot />
+  </main>
+  <slot name="footer">
+    <Footer {...footerData} />
+  </slot>
+</Layout>

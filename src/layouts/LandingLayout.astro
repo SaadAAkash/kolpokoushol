@@ -1,0 +1,38 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro';
+import Header from '~/components/widgets/Header.astro';
+
+import { getHeaderData } from '~/navigation';
+import { MetaData } from '~/types';
+import { getLocaleFromUrl } from '~/i18n/translator';
+
+export interface Props {
+  metadata?: MetaData;
+}
+
+const { metadata } = Astro.props;
+const headerData = getHeaderData(getLocaleFromUrl(Astro.url));
+---
+
+<PageLayout metadata={metadata}>
+  <Fragment slot="announcement">
+    <slot name="announcement" />
+  </Fragment>
+  <Fragment slot="header">
+    <slot name="header">
+      <Header
+        links={headerData?.links[2] ? [headerData.links[2]] : undefined}
+        actions={[
+          {
+            type: 'ghost',
+            text: 'Download',
+            href: 'https://github.com/onwidget/astrowind'
+          },
+        ]}
+        showToggleTheme
+        position="right"
+      />
+    </slot>
+  </Fragment>
+  <slot />
+</PageLayout>
