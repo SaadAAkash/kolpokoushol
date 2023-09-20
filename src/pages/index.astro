@@ -5,11 +5,12 @@ import Hero from '~/components/widgets/Hero.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 import Features2 from '~/components/widgets/Features2.astro';
-import Features from '~/components/widgets/Features.astro';
+//import Features from '~/components/widgets/Features.astro';
 import Stats from '~/components/widgets/Stats.astro';
-import Features3 from '~/components/widgets/Features3.astro';
+//import Features3 from '~/components/widgets/Features3.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Brands from '~/components/widgets/Brands.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
 
 const metadata = {
   title: 'KolpoKoushol!',
@@ -59,11 +60,12 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
+    id="features"
     title="Who we are"
     subtitle="An open platform for talented individuals to work together and develop new ideas, despite the differences in their fields of education, with the unique idea of an antidisciplinary environment. We aim to bridge the gaps between traditional disciplines and intend to encourage its participants to solve local and community-specific problems!"
   >
     <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+      <div class="absolute inset-0 bg-teal-100 dark:bg-teal-800"></div>
     </Fragment>
   </Features2>
 
@@ -83,45 +85,20 @@ const metadata = {
 
   <Brands
     title="Partnerships and Sponsors"
-    subtitle="Thanks to our partners and sponsors to advocate this knowledge initiative and collaboration to drive innovation and research"
+    subtitle="Thanks to our partners and sponsors to advocate this knowledge initiative and collaboration to drive innovation and research<br><br><b>Kickstarter</b> is the largest global crowdfunding platform in the world for creative innovations. Launched in 2009, it raised US $7 Billion in pledges from over 21 Million backers to fund almost 250K creative projects to this date.<br><br><b>Universal Machine Inc.</b> is a venture studio located in Silicon Valley, California which works with early-stage startups to provide support as their technical co-founding team. Our portfolio includes impactful startups that are solving some of the hardest problems in climate change, social computing, agriculture, and transportation. Our tech stack includes Web3, ML/AI, and IoT."
     icons={[]}
     images={[
       {
-        src: 'https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_1280.png',
-        alt: 'Paypal',
+        src: 'https://pixabay.com/get/gce2432a8cfa562886648d5d907517dc217bb545c7664ace81671aff2cd62650b301ff84591627b11a9592f065d6b49a1292e24d0fa9d6ee28f192f6484269bac_1280.png',
+        alt: 'Universal Machine Inc',
       },
       {
-        src: 'https://cdn.pixabay.com/photo/2021/12/06/13/48/visa-6850402_1280.png',
-        alt: 'Visa',
+        src: 'https://cdn.pixabay.com/photo/2023/09/20/15/36/15-36-02-727_1280.png',
+        alt: 'Kickstarter.com',
       },
       {
-        src: 'https://cdn.pixabay.com/photo/2013/10/01/10/29/ebay-189064_1280.png',
-        alt: 'Ebay',
-      },
-
-      {
-        src: 'https://cdn.pixabay.com/photo/2015/04/13/17/45/icon-720944_1280.png',
-        alt: 'Youtube',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658_1280.png',
-        alt: 'Microsoft',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_1280.png',
-        alt: 'Node JS',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2015/10/31/12/54/google-1015751_1280.png',
-        alt: 'Google',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2021/12/06/13/45/meta-6850393_1280.png',
-        alt: 'Meta',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2013/01/29/22/53/yahoo-76684_1280.png',
-        alt: 'Yahoo',
+        src: 'https://cdn.pixabay.com/photo/2023/09/20/15/36/15-36-09-654_1280.png',
+        alt: 'a2i - Aspire to Innovate',
       },
     ]}
   />
@@ -129,37 +106,75 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="What services do we provide?"
-    subtitle="We offer a wide range of website templates that suit various industries and purposes such as business, portfolio, e-commerce, blog, etc."
+    title="What are we upto this year?"
+    subtitle="This year we're planning to bring together domain experts from the fields of design and tech, food, music and arts for a 4 to 5-day event where they will work together with engineering students and professionals to build innovative projects!"
     items={[
       {
-        title: 'Installation Instructions',
-        description:
-          'Offer clear instructions on how to download the purchased templates and install them on various website platforms or content management systems.',
-        icon: 'flat-color-icons:document',
+        title: 'Music and Arts',
+        description: 'We aim to (re)invent how music instruments are made, played and interacted with design and tech',
+        icon: 'flat-color-icons:music',
       },
       {
-        title: 'Demo and Previews',
-        description:
-          'Provide interactive demos and previews that allow customers to see how their chosen template will look and function before making a purchase.',
-        icon: 'flat-color-icons:template',
+        title: 'Design and Tech',
+        description: 'We aim to push the boundaries in the intersection of design and tech with exciting experiments',
+        icon: 'flat-color-icons:electronics',
       },
       {
-        title: 'Technical Support',
-        description:
-          'Providing customer support for any technical issues related to the templates or their implementation.',
-        icon: 'flat-color-icons:voice-presentation',
+        title: 'Food and Nutrition',
+        description: 'We aim to explore the possibilities where advanced engineering and tech meets food and nutrition',
+        icon: 'flat-color-icons:biotech',
       },
     ]}
   >
     <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+      <div class="absolute inset-0 bg-teal-100 dark:bg-teal-800"></div>
     </Fragment>
   </Features2>
 
+  <!-- Testimonials Widget *********** -->
+
+  <!-- <Testimonials
+    title="Words from alumni"
+    testimonials={[
+      {
+        testimonial: `The designs are not only visually appealing but also highly professional. The templates have saved me a significant amount of time while helping me make a lasting impression on my clients.`,
+        name: 'Emily Kennedy',
+        job: 'Naimul Hoque',
+        image: {
+          src: 'https://images.unsplash.com/photo-1618835962148-cf177563c6c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80',
+          alt: 'Emily Kennedy Image',
+        },
+      },
+      {
+        testimonial: `It beautifully showcases my work, with its clean and elegant design that lets my photographs shine. Customization was a breeze, even for a non-tech person like me. The result is a professional and immersive portfolio that's garnered numerous compliments.`,
+        name: 'Sarah Hansen',
+        job: 'Photographer',
+        image: {
+          src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+          alt: 'Sarah Hansen Image',
+        },
+      },
+      {
+        testimonial: `I discovered these templates and I'm impressed by their variety and quality. They've helped me establish a consistent brand image across my marketing and social platforms, elevating my business's overall appearance.`,
+        name: 'Mark Wilkinson',
+        job: 'Small business owner',
+        image: {
+          src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
+          alt: 'Mark Wilkinson Image',
+        },
+      },
+    ]}
+    callToAction={{
+      target: '_blank',
+      text: 'More testimonials...',
+      href: 'https://github.com/onwidget/astrowind',
+      icon: 'tabler:chevron-right',
+    }}
+  /> -->
+
   <!-- Features Widget *************** -->
 
-  <Features
+  <!-- <Features
     id="features"
     title="Main features of our templates"
     subtitle="Possess several key characteristics to effectively cater to the needs of startups and entrepreneurs."
@@ -199,53 +214,53 @@ const metadata = {
         icon: 'tabler:plug-connected',
       },
     ]}
-  />
+  /> -->
 
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
+    title="But I have more questions!"
     items={[
       {
-        title: 'What are landing page templates?',
+        title: 'How do I apply?',
         description:
-          'Landing page templates are pre-designed web page layouts that are specifically created to serve as a foundation for building effective landing pages. These templates are designed to capture the attention of visitors and guide them towards a specific action or goal, such as signing up for a newsletter, making a purchase, or downloading a resource.',
+          "There's an <b>Apply Now</b> button on the site which will redirect you to a Google Form. Read thoroughly, take your time and fill in the questions!",
       },
       {
-        title: 'Why should I use a template?',
+        title: 'When do you plan to launch this workshop?',
         description:
-          'Some of the advantages are that they provide a ready-to-use structure,  saving you significant time. Are designed with user-friendliness in mind and provide a cost-effective alternative, saving you money while still delivering a quality result.',
+          "We plan to take this year's event to stage on October 13th, Friday and wrap it up by an open demo day on October 16th, Monday.",
       },
       {
-        title: 'Can I preview templates before buying?',
+        title: "What's an open demo day?",
         description:
-          'Yes, the templates allow you to preview them before making a purchase. There is a "Demo" button associated with each template.',
+          'The open demo day is an event open to the public where demos will be showcased. Other than demos, there may be a food festival (where engineered food can be tasted) and a small concert (where music will be performed using the unique musical instruments built during the workshop)!',
       },
       {
-        title: 'Do I need technical skills to use a template?',
+        title: 'Do we have to stay in the venue all of the days?',
         description:
-          'Advanced technical skills are not required to use a template, but having a basic understanding of web navigation and familiarity with using online tools can still be beneficial. If you have more specific customization needs, you might need to consult guides or reach out to customer support for assistance.',
+          "No! You don't have to stay at the venue but we'll provide technical support and mentoring for extended hours to those who'd like to stay a bit longer to get their demos done!",
       },
       {
-        title: 'Can I use the template on multiple websites?',
+        title: 'How can I contact the team if I face any issue during the application process?',
         description:
-          'No, the template comes with a single-use license, meaning you can use the template on one website or project only. Using the template on additional websites would require purchasing additional licenses.',
+          'Shoot a quick mail at <b>info@kolpokoushol.org</b> and we hope to get back to you at the earliest!',
       },
       {
-        title: 'What if I need help with customization?',
+        title: 'How do I stay updated on the deadline, venue and post-application selection process?',
         description:
-          "The templates provides a comprehensive step-by-step guide that walk you through the customization process. If you still have doubts, you can reach out to our customer support team. They can answer your questions, provide guidance on customization, and address any issues you're facing.",
+          'Follow our socials @KKoushol on LinkedIn and Facebook to get updates on every stage of your application!',
       },
     ]}
   >
     <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+      <div class="absolute inset-0 [bg-teal-100] dark:bg-transparent"></div>
     </Fragment>
   </FAQs>
 
   <!-- Features3 Widget ************** -->
 
-  <Features3
+  <!-- <Features3
     title="Let us know how we can help"
     subtitle="We’re here to help and answer any question you might have."
     columns={4}
@@ -291,7 +306,7 @@ const metadata = {
         },
       },
     ]}
-  />
+  /> -->
 
   <!-- CallToAction Widget *********** -->
 
@@ -300,17 +315,13 @@ const metadata = {
       {
         variant: 'primary',
         target: '_blank',
-        text: 'Get templates',
-        href: 'https://github.com/onwidget/astrowind',
-        icon: 'tabler:download',
+        text: 'Apply Now!',
+        href: 'https://docs.google.com',
       },
     ]}
   >
-    <Fragment slot="title">Be a part of our vision</Fragment>
+    <Fragment slot="title">Join forces 🖖🏻🖖🏼🖖🏽🖖🏾🖖🏿</Fragment>
 
-    <Fragment slot="subtitle">
-      Discover a dynamic work environment, unparalleled growth opportunities, and the chance to make a meaningful
-      impact.
-    </Fragment>
+    <Fragment slot="subtitle">Come join us and let's explore the possibilities!</Fragment>
   </CallToAction>
 </Layout>
