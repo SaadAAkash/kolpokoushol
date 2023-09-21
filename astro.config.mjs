@@ -56,6 +56,9 @@ export default defineConfig({
           'biotech',
           'cursor',
         ],
+        'grommet-icons': ['technology'],
+        iconamoon: ['music-1-fill'],
+        'simple-icons': ['moleculer'],
       },
     }),
 

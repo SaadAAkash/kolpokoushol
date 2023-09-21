@@ -10,7 +10,7 @@ import Stats from '~/components/widgets/Stats.astro';
 //import Features3 from '~/components/widgets/Features3.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Brands from '~/components/widgets/Brands.astro';
-import Testimonials from '~/components/widgets/Testimonials.astro';
+// import Testimonials from '~/components/widgets/Testimonials.astro';
 
 const metadata = {
   title: 'KolpoKoushol!',
@@ -28,9 +28,7 @@ const metadata = {
         target: '_blank',
         text: 'Know more →',
         href: 'https://www.linkedin.com/company/kkoushol/',
-        //icon: 'tabler:download',
       },
-      { text: 'Learn more', href: '#features' },
     ]}
   >
     <Fragment slot="title">
@@ -58,12 +56,17 @@ const metadata = {
     </Fragment>
   </Hero>
 
-  <!-- Features2 Widget ************** -->
+  <!-- Who we are Widget ************** -->
 
   <Features2
-    id="features"
+    id="who-we-are"
     title="Who we are"
     subtitle="An open platform for talented individuals to work together and develop new ideas, despite the differences in their fields of education, with the unique idea of an antidisciplinary environment. We aim to bridge the gaps between traditional disciplines and intend to encourage its participants to solve local and community-specific problems!"
+    classes={{
+      headline: {
+        container: 'max-w-3xl text-left',
+      },
+    }}
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-teal-100 dark:bg-teal-800"></div>
@@ -77,9 +80,14 @@ const metadata = {
     subtitle="KolpoKoushol is about people and the synergy they produce amongst them. We welcomed people from all disciplines, from tech and design to law and journalism, from fine arts to gender studies - the student researchers from KolpoKoushol went ahead to solve local infrastructure and discrimination issues, such as AI-powered visual search engines for laws, detecting and fighting hidden gender discrimination in TV media and newspapers, etc. <br> <br> Students from KolpoKoushol Research have already published in top machine learning conferences like NeurIPS."
     stats={[
       { title: 'Workshops', amount: '20+' },
-      { title: 'Open Demos', amount: '40+' },
-      { title: 'Participants', amount: '100+' },
+      { title: 'Demos', amount: '40+' },
+      { title: 'Alumnus', amount: '100+' },
     ]}
+    classes={{
+      headline: {
+        container: 'max-w-3xl text-left',
+      },
+    }}
   />
 
   <!-- Brands Widget ****************** -->
@@ -102,6 +110,11 @@ const metadata = {
         alt: 'a2i - Aspire to Innovate',
       },
     ]}
+    classes={{
+      headline: {
+        container: 'max-w-3xl text-left',
+      },
+    }}
   />
 
   <!-- Features2 Widget ************** -->
@@ -113,17 +126,17 @@ const metadata = {
       {
         title: 'Music and Arts',
         description: 'We aim to (re)invent how music instruments are made, played and interacted with design and tech',
-        icon: 'flat-color-icons:music',
+        icon: 'iconamoon:music-1-fill',
       },
       {
         title: 'Design and Tech',
         description: 'We aim to push the boundaries in the intersection of design and tech with exciting experiments',
-        icon: 'flat-color-icons:electronics',
+        icon: 'grommet-icons:technology',
       },
       {
         title: 'Food and Nutrition',
         description: 'We aim to explore the possibilities where advanced engineering and tech meets food and nutrition',
-        icon: 'flat-color-icons:biotech',
+        icon: 'simple-icons:moleculer',
       },
     ]}
   >
@@ -317,7 +330,7 @@ const metadata = {
         variant: 'primary',
         target: '_blank',
         text: 'Apply Now!',
-        href: 'https://docs.google.com',
+        href: 'https://docs.google.com/forms/d/e/1FAIpQLSf_ymDG1mLSKsdVsCWz4Fo-dTWCCc2lu-Xj1OGpcO9or7iC6w/viewform?usp=sharing',
       },
     ]}
   >
