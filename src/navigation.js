@@ -115,7 +115,15 @@ export const headerData = {
     //   href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
     // },
   ],
-  actions: [{ text: 'Apply Now!', href: 'https://docs.google.com', target: '_blank' }],
+  actions: [
+    {
+      text: 'Apply Now!',
+      href: 'https://docs.google.com/forms/d/e/1FAIpQLSf_ymDG1mLSKsdVsCWz4Fo-dTWCCc2lu-Xj1OGpcO9or7iC6w/viewform?usp=sharing',
+      target: '_blank',
+    },
+    { text: 'Blog', href: '/build-your-most-creative-ideas' },
+    { text: 'Who We Are', href: '/#who-we-are' },
+  ],
 };
 
 export const footerData = {
@@ -173,7 +181,12 @@ export const footerData = {
     // { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     // { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/kkoushol/' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/KKoushol/', target: '_blank' },
+    {
+      ariaLabel: 'Facebook',
+      icon: 'tabler:brand-facebook',
+      href: 'https://www.facebook.com/KKoushol/',
+      target: '_blank',
+    },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
     // { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
   ],

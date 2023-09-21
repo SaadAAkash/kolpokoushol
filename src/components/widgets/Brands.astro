@@ -16,10 +16,10 @@ const {
 } = Astro.props as Brands;
 ---
 
-<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-6xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
-  <Headline title={title} subtitle={subtitle} tagline={tagline} />
+<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
+  <Headline title={title} subtitle={subtitle} tagline={tagline} classes={classes?.headline} />
 
-  <div class="flex flex-wrap justify-center gap-x-6 sm:gap-x-12 lg:gap-x-24">
+  <div class="flex flex-wrap justify-center gap-x-6 sm:gap-x-8">
     {icons && icons.map((icon) => <Icon name={icon} class="py-3 lg:py-5 w-12 h-auto mx-auto sm:mx-0 text-gray-500" />)}
     {
       images &&
@@ -27,7 +27,7 @@ const {
           (image) =>
             image.src && (
               <div class="flex justify-center col-span-1 my-2 lg:my-4 py-1 px-3 rounded-md dark:bg-gray-200">
-                <img src={image.src} alt={image.alt || ''} class="max-h-12 min-w-[80px]" />
+                <img src={image.src} alt={image.alt || ''} class="max-h-[90px] min-w-[100px]" />
               </div>
             )
         )
