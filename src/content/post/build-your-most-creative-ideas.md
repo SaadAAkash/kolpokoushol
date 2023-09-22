@@ -26,6 +26,8 @@ There are plenty of problems that get solved in our kitchens, offices, schools, 
 
 These “small” solutions currently spread via a social learning process. I have seen how my grandmother built small tools out of everyday materials to aid her cooking process, and I have adopted some of those techniques when I cook now. This process tends to be localized (my grandmother passing on her techniques to her family), and evolves in an organic manner (her tools evolved in my hands because I iterated on her design and had different parts to build them). However, are there better, more fluid ways to create and spread such innovation organically, and in a manner so they are not localized?
 
+![Creativity Tools](/images/posts/creativity.png)
+
 ## Thinking Big using “Small” Problems
 
 There's always that entrepreneur in all of us who has a clever new idea. Maybe the idea is not well formed yet. Or maybe they have a simple prototype. How do we help them scale that solution so others can benefit as well? A related question: how do we change the narrative around these small, “not-worthy-of-our-attention" problems?
@@ -34,7 +36,9 @@ The first question is a business development question. To help individual innova
 
 The second question – changing the narrative around creativity and innovation – cannot be solved by using crowdfunding tools like Kickstarter alone, but by creating awareness and collaboration between creators, innovators, and users. This is where KolpoKoushol comes in.
 
-I founded KolpoKoushol during the first year of my PhD program at the MIT Media Lab, in 2015. The idea was still the same: facilitating local Bangladeshi innovators and creators to work on their ideas. This required us to break academic boundaries and put humanities/business experts together with engineers, to come up with demos and solutions. 
+I founded KolpoKoushol during the first year of my PhD program at the MIT Media Lab, in 2015. The idea was still the same: facilitating local Bangladeshi innovators and creators to work on their ideas. This required us to break academic boundaries and put humanities/business experts together with engineers, to come up with demos and solutions.
+
+![Thinking Big](/images/posts/thinking-big.png)
 
 Every year, we focused on a few themes such as law and journalism, and held workshops and hackathons for making interesting products around those themes. Fast forward to 2023. We are now gearing up to go beyond demos, and we want to partner up with leading crowdfunding platforms around the world to make Bangladeshi innovators’ and creators’ dreams come true.
 
@@ -50,13 +54,15 @@ The word deception may sound negative, but just like everything else, its interp
 
 We have been developing deception methods over many thousands of years to intentionally fool ourselves into doing good things that we otherwise don’t desire to do. For example, when I was a child I would regularly fall sick, and I could not swallow the big tablets that were prescribed for me, and I would vomit the moment I would try to swallow them. Later, when I saw the tablets, I would have a strong reaction and would not want to go near them. My parents, pretty desperate to find a way to feed me the tablets, would either break them down into pieces or find smaller versions in the pharmacy, and put them in a banana. This deception (eating the banana) saved my health for some time, until one day I figured out what they really did!
 
+![Surprise](/images/posts/surprise.png)
+
 Art and entertainment also often rely on deception and surprise. A sudden change of scale in a song, a hidden clue in a mystery movie that was not revealed to the audience until the end, or adding spices for taste and color to an otherwise bland vegetable, all of these have components of deception and surprise. The deception methods may alter the reality for the user’s/consumer’s own benefit (e.g., eating tablet-infused bananas). Or they may lead the users/consumers to believe something else, create some tension in the process (since the purposefully altered observations don’t match the reality), and finally relieve the tension by disclosing the deception. This is what happens in many movies and books.
 
 In KolpoKoushol 2023, we aim to create carefully designed deception and surprise in food and music via various low-tech and high-tech methods, and we will compare and reflect on these solutions together. The workshop will run from October 13th - 16th, 2023. We will showcase the artifacts and demos on the last day of the workshop (Oct 16th).
 
 ## We are Looking for You!
 
-As you can imagine, for the workshop we are looking for people who can work at the intersection of technology and arts/humanities. If you’re an engineer, we are hoping that you appreciate the arts and the humanities. If you are a culinary artist or a musician, we hope that you are interested in exploring how engineering tools can improve your craft.
+As you can imagine, for the workshop we are looking for people who can work at the intersection of technology and arts/humanities. **If you’re an engineer, we are hoping that you appreciate the arts and the humanities.** **If you are a culinary artist or a musician, we hope that you are interested in exploring how engineering tools can improve your craft.**
 
 To deliberately filter out people who are not serious enough, we have come up with a problem set that interested applicants need to solve, as usual. The questions revolve around themes from alien sci-fi and Lovecraftian cosmic horror, because they often let you examine our culture and technology from outside of the box.
 
