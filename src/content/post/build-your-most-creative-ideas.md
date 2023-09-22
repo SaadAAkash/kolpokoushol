@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-09-21T06:02:00Z
 title: KolpoKoushol 2023 ~ Build Your Most Creative Ideas
-excerpt: Be the creative entrepreneur you can be!
+excerpt: ""
 image: /images/apply-now.png
 category: Kick-off
 tags:
