@@ -22,9 +22,9 @@ I think what’s currently lacking in the creative innovation scene in Banglades
 
 However, what might get neglected in this kind of “thinking big” attitude are the other “small” things that make up our individual daily lives. Thinking big is important but we can think big by focusing on the neglected, “small” problems as well.
 
-There are plenty of problems that get solved in our kitchens, offices, schools, local neighborhoods, and beyond. These improve our lived experiences significantly. Starting from innovative ways to hang your clothes to dry inside the room (because we don’t have enough space), to making music using instruments built from cheap natural parts, to methods to detoxify your food from harmful chemicals because distributors won’t stop using colors and preservatives – our people have been innovating at a breakneck pace, but they do not qualify as “smart” innovations in the tide of new “fancy tech”. 
+There are plenty of problems that get solved in our kitchens, offices, schools, local neighborhoods, and beyond. These improve our lived experiences significantly. Starting from innovative ways to hang your clothes to dry inside the room (because we don’t have enough space), to making music using instruments built from cheap natural parts, to methods to detoxify your food from harmful chemicals because distributors won’t stop using colors and preservatives – our people have been innovating at a breakneck pace, but they do not qualify as “smart” innovations in the tide of new “fancy tech”.
 
-These “small” solutions currently spread via a social learning process. I have seen how my grandmother built small tools out of everyday materials to aid her cooking process, and I have adopted some of those techniques when I cook now. This process tends to be localized (my grandmother passing on her techniques to her family), and evolves in an organic manner (her tools evolved in my hands because I iterated on her design and had different parts to build them). However, are there better, more fluid ways to create and spread such innovation organically, and in a manner so they are not localized?
+These “small” solutions currently spread via a social learning process. I have seen how my grandmother built small tools out of everyday materials to aid her cooking process, and I have adopted some of those techniques when I cook now. This process tends to be localized (my grandmother passing on her techniques to her family), and evolves in an organic manner (her tools evolved in my hands because I iterated on her design and had different parts to build with). However, are there better, more fluid ways to create and spread such innovation organically, and in a manner so they are not localized?
 
 ![Creativity Tools](/images/posts/creativity.png)
 
@@ -32,15 +32,15 @@ These “small” solutions currently spread via a social learning process. I ha
 
 There's always that entrepreneur in all of us who has a clever new idea. Maybe the idea is not well formed yet. Or maybe they have a simple prototype. How do we help them scale that solution so others can benefit as well? A related question: how do we change the narrative around these small, “not-worthy-of-our-attention" problems?
 
-The first question is a business development question. To help individual innovators scale their interesting ideas, we need to amplify their funding beyond their own savings. We need to encourage them to make their designs open source, and we need a way to distribute their created artifacts to other people. These creators are often repeat creators, they want to update their artifacts frequently (that’s the organic innovation process I mentioned earlier). Our sponsor [Kickstarter](https://www.kickstarter.com/) is a widely known name for crowdfunding creative and indie projects, and it has cracked this problem in several ways. In the last decade, Kickstarter has raised $7B to fund and distribute creative projects, helping creators hone their craft over repetitions and run campaigns to raise funds for their projects. 
+The first question is a business development question. To help individual innovators scale their interesting ideas, we need to amplify their funding beyond their own savings. We need to encourage them to make their designs open source, and we need a way to distribute their created artifacts to other people. These creators are often repeat creators, they want to update their artifacts frequently. That’s the organic innovation process I mentioned earlier. Our sponsor [Kickstarter](https://www.kickstarter.com/) is a widely known name for crowdfunding creative and indie projects, and it has cracked this problem in several ways. In the last decade, projects funded on Kickstarter have raised $7B, helping creators hone their craft over repetitions and run campaigns to raise funds for their projects.
 
 The second question – changing the narrative around creativity and innovation – cannot be solved by using crowdfunding tools like Kickstarter alone, but by creating awareness and collaboration between creators, innovators, and users. This is where KolpoKoushol comes in.
 
-I founded KolpoKoushol during the first year of my PhD program at the MIT Media Lab, in 2015. The idea was still the same: facilitating local Bangladeshi innovators and creators to work on their ideas. This required us to break academic boundaries and put humanities/business experts together with engineers, to come up with demos and solutions.
+I founded KolpoKoushol during the first year of my PhD program at the MIT Media Lab, in 2015. The idea was to facilitate local Bangladeshi innovators and creators to work on their ideas. This required us to break academic boundaries and put humanities/business experts together with engineers, to come up with demos and solutions.
 
 ![Thinking Big](/images/posts/thinking-big.png)
 
-Every year, we focused on a few themes such as law and journalism, and held workshops and hackathons for making interesting products around those themes. Fast forward to 2023. We are now gearing up to go beyond demos, and we want to partner up with leading crowdfunding platforms around the world to make Bangladeshi innovators’ and creators’ dreams come true.
+Every year, we focused on a few themes such as law and journalism, and held workshops and hackathons for making interesting products around those themes. Fast forward to 2023. We are now gearing up to go beyond demos, and we want to partner up with leading crowdfunding platforms around the world to bring Bangladeshi innovators’ and creators’ ideas to fruition.
 
 It was only apt that we bring back the program now that we are well positioned with all our previous learnings and the right sponsors. The goal this time is to go beyond demos: we want to build that creator and innovator community that Bangladesh badly needs. Hopefully, we are better equipped this time.
 
@@ -48,9 +48,9 @@ It was only apt that we bring back the program now that we are well positioned w
 
 As I said, every year we choose a few themes. The themes for KolpoKoushol 2023 are Food and Music. We aim to bring in food and music experts and enthusiasts, and match them with engineering and technical professionals to create food and music technology.
 
-To narrow down our scope a little bit, the overarching theme for KolpoKoushol 2023 is set as “deception and surprise.” Let me explain a little more! 
+To narrow down our scope a little bit, the overarching theme for KolpoKoushol 2023 is set as “deception and surprise.” Let me explain a little more!
 
-The word deception may sound negative, but just like everything else, its interpretation depends on the context. If you look around yourself, you’ll see that other than harmful deceptions (such as adding harmful chemicals to our food that are invisible to our naked eyes), there are useful deceptions too. 
+The word deception may sound negative, but just like everything else, its interpretation depends on the context. If you look around yourself, you’ll see that other than harmful deceptions (such as adding harmful chemicals to our food that are invisible to our naked eyes), there are useful deceptions too.
 
 We have been developing deception methods over many thousands of years to intentionally fool ourselves into doing good things that we otherwise don’t desire to do. For example, when I was a child I would regularly fall sick, and I could not swallow the big tablets that were prescribed for me, and I would vomit the moment I would try to swallow them. Later, when I saw the tablets, I would have a strong reaction and would not want to go near them. My parents, pretty desperate to find a way to feed me the tablets, would either break them down into pieces or find smaller versions in the pharmacy, and put them in a banana. This deception (eating the banana) saved my health for some time, until one day I figured out what they really did!
 
@@ -62,11 +62,11 @@ In KolpoKoushol 2023, we aim to create carefully designed deception and surprise
 
 ## We are Looking for You!
 
-As you can imagine, for the workshop we are looking for people who can work at the intersection of technology and arts/humanities. **If you’re an engineer, we are hoping that you appreciate the arts and the humanities.** **If you are a culinary artist or a musician, we hope that you are interested in exploring how engineering tools can improve your craft.**
+As you can imagine, for the workshop we are looking for people who can work at the intersection of technology and arts/humanities. **If you’re an engineer, we hope that you appreciate the arts and the humanities.** **If you are a culinary artist or a musician, we hope that you are interested in exploring how engineering tools can improve your craft.**
 
 To deliberately filter out people who are not serious enough, we have come up with a problem set that interested applicants need to solve, as usual. The questions revolve around themes from alien sci-fi and Lovecraftian cosmic horror, because they often let you examine our culture and technology from outside of the box.
 
-Come join us to hack the world around you! Apply by filling out the application and solving the problem set. The questions and the associated google form will be made live soon.
+Come join us to hack the world around you! Apply by [filling out the application and solving the problem set.](https://docs.google.com/forms/d/e/1FAIpQLSf_ymDG1mLSKsdVsCWz4Fo-dTWCCc2lu-Xj1OGpcO9or7iC6w/viewform)
 
 #### About the Author
 
